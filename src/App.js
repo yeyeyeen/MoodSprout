@@ -14,6 +14,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div class="myJournal">
+          <h2>My Journal</h2>
+        </div>
+        <div class="sidenav">
+          <a href="#">Daily Reflection</a><br></br>
+          <a href="#">Gratitude Journal</a><br></br>
+          <a href="#">Goal Setting</a><br></br>
+          <a href="#">Creative Writing</a><br></br>
+          <a href="#">Free Form</a><br></br>
+        </div>
         <h1>Daily Reflection</h1>
         <p>How are you feeling today?</p>
         <textarea
