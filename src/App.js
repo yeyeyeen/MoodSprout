@@ -47,9 +47,6 @@ function App() {
         <div class="topnav">
           <h3>Date</h3>
         </div>
-        <div class="calendar">
-          <h3>Calendar</h3>
-        </div>
       </header>
     </div>
   );

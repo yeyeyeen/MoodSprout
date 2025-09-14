@@ -49,25 +49,14 @@
   color: #f1f1f1;
 }
 
-.calendar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
+.topnav {
+  height: 50px; /* Full-height: remove this if you want "auto" height */
+  width: 79%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  bottom: 0;
+  top: 0;
   right: 0;
   background-color: #fffaec; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 100px;
-}
-
-.topnav {
-  height: 5px; /* Full-height: remove this if you want "auto" height */
-  width: 70%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  top: 0;
-  background-color: #fffaec; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 100px;
 }
 
 .App-header {
