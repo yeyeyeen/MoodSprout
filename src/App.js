@@ -27,16 +27,30 @@ function App() {
         <div class="my-journal">
           <h2>My Journal</h2>
         </div>
-        <div class="sidenav">
-          <button onClick={dailyReflectionButton}>Daily Reflection</button>
+        <div className="sidenav">
+          <button
+            onClick={dailyReflectionButton}
+            className="w-[200px] px-4 py-2 mb-2 text-left rounded-lg bg-blue-300 text-white hover:bg-blue-500 transition"
+          >
+            Daily Reflection
+          </button>
+
           <br></br>
-          <button onClick={gratitudeJournalButton}>Gratitude Journal</button>
+          <button onClick={gratitudeJournalButton}
+          className="w-[200px] px-4 py-2 mb-2 text-left rounded-lg bg-blue-300 text-white hover:bg-blue-500 transition"
+          >Gratitude Journal</button>
           <br></br>
-          <button onClick={goalSettingButton}>Goal Setting</button>
+          <button onClick={goalSettingButton}
+          className="w-[200px] px-4 py-2 mb-2 text-left rounded-lg bg-blue-300 text-white hover:bg-blue-500 transition"
+          >Goal Setting</button>
           <br></br>
-          <button onClick={creativeWritingButton}>Creative Writing</button>
+          <button onClick={creativeWritingButton}
+          className="w-[200px] px-4 py-2 mb-2 text-left rounded-lg bg-blue-300 text-white hover:bg-blue-500 transition"
+          >Creative Writing</button>
           <br></br>
-          <button onClick={freeFormButton}>Free Form</button>
+          <button onClick={freeFormButton}
+          className="w-[200px] px-4 py-2 mb-2 text-left rounded-lg bg-blue-300 text-white hover:bg-blue-500 transition"
+          >Free Form</button>
         </div>
         <div class="main-page">
           <h3 className="text-lg font-medium">Select a Template</h3>
